@@ -1,0 +1,4 @@
+F:
+cd libsvm-3.22\windows
+svm-train -t 0 F:\data\data_final\train_lib F:\data\libsvm\train.model
+svm-predict F:\data\data_final\test_lib F:\data\libsvm\train.model F:\data\libsvm\libsvm_result.txt
